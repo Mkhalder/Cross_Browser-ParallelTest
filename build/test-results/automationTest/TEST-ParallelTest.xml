@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParallelTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-29T09:11:48" hostname="DESKTOP-KCCH660" time="16.821">
+  <properties/>
+  <testcase name="fireFoxTest" classname="ParallelTest" time="15.017"/>
+  <testcase name="chromeTest" classname="ParallelTest" time="16.818"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1682759509679	geckodriver	INFO	Listening on 127.0.0.1:18071
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 8654
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1682759510464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofiletMuYnB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Apr 29, 2023 3:11:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1682759511882	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682759511895	Marionette	INFO	Listening on port 59164
+Read port: 59164
+Read port: 59164
+1682759513858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofiletMuYnB\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+Apr 29, 2023 3:11:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://clientcdn.pushengage.com/core/61a71ead19398fba5514eb0ef83d600c.js, line 328: ReferenceError: Notification is not defined
+JavaScript warning: https://ai-widget.s3.amazonaws.com/fl-ai-widget-prothomalo-soccer.js, line 12: unreachable code after return statement
+1682759522945	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hnY7PzTjWh4XksTeMflqXiPWVUSZPNkbpYPulxtDGE8.js line 2 > eval line 2179 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+</testsuite>
